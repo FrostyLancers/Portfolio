@@ -1,0 +1,14 @@
+body{
+    font-size: 20px;
+    background-color: aliceblue;
+}
+
+fieldset{
+    background-color: gainsboro;
+}
+
+#LoginButton, #ClearButton{
+    background-color: gold;
+    font-size: large;
+    margin-top: 10px;
+}

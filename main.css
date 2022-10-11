@@ -1,0 +1,130 @@
+body{
+    color: white;
+    background-color: black;
+}
+.Header{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+#Home_Button, #Portfolio_Button, #Contact_Button{
+    background-color: #333;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 50px;
+} 
+
+@media only screen and (max-width: 800px){
+    #Home_Button, #Portfolio_Button, #Contact_Button{
+        grid-template-columns: auto;
+        grid-column: 1/ span 1;
+    }
+}
+
+hr{
+    height: 5px;
+    background-color: white;
+}
+
+/******************************************* Introduction_Start ********************************************/
+
+.Introduction_Header{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#Ken_pic{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+/********************************************* Info_Start ***************************************************/
+
+.Introduction_Upper_Section, .Introduction_Lower_Section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin: 10px;
+}
+
+.First_Section, .Second_Section, .Third_Section{
+    background-color: #333;
+    margin: 10px;
+}
+
+#Topic{
+    font-size: 30px;
+}
+
+#Description{
+    font-size: 20px;
+}
+
+#Facebook a:visited{
+    color: gold;
+}
+
+/******************************************************Project_Start *******************************************/
+
+#Header{
+    text-align: center;
+    font-size: 50px;
+}
+
+.First_Row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#Cinnamon_Image{
+    width: 50%;
+}
+
+#Re_Login_Image{
+    width: 65% 
+}
+
+/********************************************************** Model_Start *******************************************/
+
+#Model_Text{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Model_Info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#Store, #Temple{
+    width: 60%
+}
+
+#Character{
+    width: 68%;
+}
+
+/********************************************************* Unity_Start *********************************************/
+
+.Unity{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#House1, #House2{
+    width: 50%;
+    margin-top: 50px;
+}
